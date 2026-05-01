@@ -1,5 +1,6 @@
 {
   "name": "fitos",
+  "type": "module",
   "private": true,
   "workspaces": [
     "apps/*",
@@ -11,7 +12,8 @@
     "lint": "biome check .",
     "format": "biome format --write .",
     "typecheck": "turbo typecheck",
-    "commit": "cz"
+    "commit": "cz",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@biomejs/biome": "latest",
