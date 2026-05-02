@@ -1,1 +1,1 @@
-# FitOS
+# FitOS — Fitness Operating System
