@@ -1,1 +1,1 @@
-# FitOS — Fitness Operating System v2
+# FitOS — Fitness Operating System v3
