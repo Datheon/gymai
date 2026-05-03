@@ -1,0 +1,17 @@
+# Global — Datheon aprueba todo
+*                                       @Datheon
+
+# Shared — ambos pueden tocar
+/packages/shared/                       @Datheon @datheonFrontend
+
+# FSD layers — agente frontend
+/apps/fitos-app/src/features/           @datheonFrontend
+/apps/fitos-app/src/entities/           @datheonFrontend
+/apps/fitos-app/src/widgets/            @datheonFrontend
+/apps/fitos-app/src/pages/              @datheonFrontend
+
+# Config e infra — solo Datheon
+/turbo.json                             @Datheon
+/biome.json                             @Datheon
+/.husky/                                @Datheon
+/commitlint.config.js                   @Datheon
