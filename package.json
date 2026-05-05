@@ -19,15 +19,23 @@
     "@biomejs/biome": "latest",
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
+    "@vitejs/plugin-react": "^6.0.1",
     "commitizen": "latest",
     "cz-conventional-changelog": "latest",
     "husky": "latest",
     "lint-staged": "latest",
-    "turbo": "latest"
+    "turbo": "latest",
+    "vite": "^8.0.10"
   },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "@tanstack/react-router": "^1.169.1",
+    "@tanstack/react-start": "^1.167.63",
+    "@tanstack/start": "^1.120.20",
+    "vinxi": "^0.5.11"
   }
 }
