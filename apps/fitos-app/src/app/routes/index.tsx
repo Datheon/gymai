@@ -1,7 +1,6 @@
-// File: fitos/apps/fitos-app/src/app/routes/index.tsx
 import { createFileRoute } from "@tanstack/react-router";
 
-export const Route = createFileRoute("/")({
+export const Route = createFileRoute("/" as any)({
   component: HomePage,
 });
 

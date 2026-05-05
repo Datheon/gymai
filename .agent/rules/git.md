@@ -1,12 +1,13 @@
+<!-- File: fitos/.agent/rules/git.md -->
 # Git Identity — Frontend Agent
 
 ## Identity
 When committing and pushing to GitHub, always use this identity:
 
 GIT_AUTHOR_NAME="datheonFrontend"
-GIT_AUTHOR_EMAIL="team_datheon_frontend@protonmail.com"
+GIT_AUTHOR_EMAIL="datheonFrontend@users.noreply.github.com"
 GIT_COMMITTER_NAME="datheonFrontend"
-GIT_COMMITTER_EMAIL="team_datheon_frontend@protonmail.com"
+GIT_COMMITTER_EMAIL="datheonFrontend@users.noreply.github.com"
 
 ## Push
 Token is stored in .env.agents (never committed to git)

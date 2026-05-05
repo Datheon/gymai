@@ -19,11 +19,14 @@
     "@biomejs/biome": "latest",
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
+    "@tanstack/router-plugin": "^1.167.33",
+    "@vitejs/plugin-react": "^6.0.1",
     "commitizen": "latest",
     "cz-conventional-changelog": "latest",
     "husky": "latest",
     "lint-staged": "latest",
-    "turbo": "latest"
+    "turbo": "latest",
+    "vite": "^8.0.10"
   },
   "config": {
     "commitizen": {
